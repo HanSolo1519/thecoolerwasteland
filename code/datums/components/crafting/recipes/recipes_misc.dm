@@ -78,6 +78,15 @@
 	time = 50
 	subcategory = CAT_MISCELLANEOUS
 	category = CAT_MISC
+	
+/datum/crafting_recipe/miningcar
+	name = "Wooden mining cart"
+	result = /obj/structure/closet/crate/miningcar
+	reqs = list(/obj/item/stack/sheet/metal = 5,
+				/obj/item/stack/sheet/mineral/wood = 20)
+	time = 110
+	subcategory = CAT_MISCELLANEOUS
+	category = CAT_MISC
 
 /datum/crafting_recipe/sink
 	name = "Sink"

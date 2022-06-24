@@ -657,6 +657,20 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
 
+/datum/crafting_recipe/knifegun
+	name = "knife gun (.44)"
+	result = /obj/item/gun/ballistic/revolver/hobo/knifegun
+	reqs = list(
+		/obj/item/scalpel = 1,
+		/obj/item/stack/crafting/metalparts = 1,
+		/obj/item/stack/rods = 1,
+		/obj/item/crafting/duct_tape = 2,
+		)
+	tools = list(TOOL_WORKBENCH, TOOL_SAW, TOOL_SCREWDRIVER)
+	time = 120
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
+
 /datum/crafting_recipe/gun/plasmamusket
 	name = "Plasma musket"
 	result = /obj/item/gun/ballistic/rifle/hobo/plasmacaster

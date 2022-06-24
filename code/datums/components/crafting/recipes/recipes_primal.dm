@@ -460,7 +460,18 @@
 	reqs = list(/obj/item/stack/crafting/electronicparts = 2,
 				/obj/item/stack/crafting/metalparts = 2,
 				/obj/item/stack/cable_coil = 1)
-	category = CAT_TRIBAL
+	tools = list(TOOL_WORKBENCH)
+	always_available = FALSE
+	
+/datum/crafting_recipe/lantern
+	name = "Lantern"
+	result = /obj/item/flashlight/lantern
+	time = 25
+	reqs = list(/obj/item/stack/crafting/electronicparts = 1,
+				/obj/item/stack/sheet/glass = 2,
+				/obj/item/stack/sheet/metal = 1,
+				/obj/item/light/bulb = 1,
+				/obj/item/stack/cable_coil = 1)
 	tools = list(TOOL_WORKBENCH)
 	always_available = FALSE
 
